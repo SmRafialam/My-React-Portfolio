@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/My-React-Portfolio/static/css/main.4ea0c9a3.css",
+    "main.js": "/My-React-Portfolio/static/js/main.c2776a26.js",
+    "static/media/me.png": "/My-React-Portfolio/static/media/me.5899713ea465a982dac2.png",
+    "static/media/portfolio5.png": "/My-React-Portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/My-React-Portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/My-React-Portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/me4-about.jpg": "/My-React-Portfolio/static/media/me4-about.93a1a2d88dbb1275efaf.jpg",
+    "static/media/SmRafiAlam.pdf": "/My-React-Portfolio/static/media/SmRafiAlam.824449e59b23b1c05b47.pdf",
+    "static/media/portfolio1.jpg": "/My-React-Portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/My-React-Portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/My-React-Portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "index.html": "/My-React-Portfolio/index.html",
+    "main.4ea0c9a3.css.map": "/My-React-Portfolio/static/css/main.4ea0c9a3.css.map",
+    "main.c2776a26.js.map": "/My-React-Portfolio/static/js/main.c2776a26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ea0c9a3.css",
+    "static/js/main.c2776a26.js"
+  ]
+}

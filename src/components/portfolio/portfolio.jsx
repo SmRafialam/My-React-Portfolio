@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.PNG'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/image1.jpg'
+import IMG2 from '../../assets/image2.jpg'
+import IMG3 from '../../assets/image3.JPG'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -11,22 +11,22 @@ const data = [
   {
       id: 1,
       image: IMG1,
-      title: 'PIM',
+      title: 'PIM front',
       github:	'https://github.com/SmRafialam',
       demo: 'https://pim-frontend.azurewebsites.net/'
   },
   {
       id: 2,
       image: IMG2,
-      title: 'title2',
-      github:	'https://github.com',
-      demo: 'https://dribble.com'
+      title: 'PIM Backend',
+      github:	'https://github.com/SmRafialam',
+      demo: 'https://pim-nest.vercel.app/api/doc/v1#/'
   },
   {
       id: 3,
       image: IMG3,
-      title: 'title3',
-      github:	'https://github.com',
+      title: 'E-Commerce with Laravel',
+      github:	'https://github.com/SmRafialam/E-Commerce-Project-with-Php-Laravel',
       demo: 'https://dribble.com'
   },
   {

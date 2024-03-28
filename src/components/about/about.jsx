@@ -4,6 +4,7 @@ import ME from '../../assets/me4-about.jpg'
 import { TbAwardFilled } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { FaResearchgate } from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -26,17 +27,24 @@ const About = () => {
               <small>2 Years Working</small>
             </article> 
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
-            </article> 
+            </article>  */}
+            {/* https://www.researchgate.net/profile/Rafi-Alam-4 */}
 
-            <article className="about__card">
+            <article className="about__card" >
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>30+ Completed</small>
             </article> 
+
+            <a className="about__card" href='https://orcid.org/0000-0003-4805-5492'>
+              <FaResearchgate className='about__icon'/>
+              <h5>Research Paper</h5>
+              <small>1</small>
+            </a>
           </div>
 
           <p>

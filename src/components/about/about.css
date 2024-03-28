@@ -35,6 +35,10 @@
     gap: 1.5rem;
 }
 
+.about__cards a {
+    text-decoration-style: none;
+}
+
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;

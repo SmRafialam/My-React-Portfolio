@@ -17,22 +17,22 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Jack',
-    review: 'When potential customers read testimonials, they are stepping into the person shoes in the testimonial and see themselves using your product. An authentic testimonial is virtually impossible for a marketer to recreate.'
+    review: "Their expertise and dedication turned our vision into reality, delivering a product that surpassed all expectations."
   },
   {
     avatar: AVTR2,
     name: 'Smith',
-    review: 'When potential customers read testimonials, they are stepping into the person shoes in the testimonial and see themselves using your product. An authentic testimonial is virtually impossible for a marketer to recreate.'
+    review: "Their commitment to excellence and ability to adapt to our evolving needs ensured a successful project outcome, earning my highest recommendation."
   },
-  {
-    avatar: AVTR3,
-    name: 'Nau',
-    review: 'When potential customers read testimonials, they are stepping into the person shoes in the testimonial and see themselves using your product. An authentic testimonial is virtually impossible for a marketer to recreate.'
-  },
+  // {
+  //   avatar: AVTR3,
+  //   name: 'Nau',
+  //   review: 'When potential customers read testimonials, they are stepping into the person shoes in the testimonial and see themselves using your product. An authentic testimonial is virtually impossible for a marketer to recreate.'
+  // },
   {
     avatar: AVTR4,
     name: 'Nime',
-    review: 'When potential customers read testimonials, they are stepping into the person shoes in the testimonial and see themselves using your product. An authentic testimonial is virtually impossible for a marketer to recreate.'
+    review: "Choosing Rafi Alam for our project was one of the best decisions we made. Their impeccable attention to detail and effective communication made the entire process seamless, resulting in a final product that truly impressed both our team and clients alike."
   }
 
 ]

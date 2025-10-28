@@ -3,9 +3,12 @@ import './portfolio.css'
 import IMG1 from '../../assets/image1.jpg'
 import IMG2 from '../../assets/image2.jpg'
 import IMG3 from '../../assets/image3.JPG'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG4 from '../../assets/ss2.png'
+import IMG5 from '../../assets/aerodrops.png'
+import IMG6 from '../../assets/aero.png'
+import IMG7 from '../../assets/managerium.png'
+import IMG8 from '../../assets/ibos.io.png'
+import IMG9 from '../../assets/RB.png'
 
 const data = [
   {
@@ -32,23 +35,44 @@ const data = [
   {
       id: 4,
       image: IMG4,
-      title: 'title4',
-      github:	'https://github.com',
-      demo: 'https://dribble.com'
+      title: 'Pruvit',
+      github:	'https://www.pruvit.com/',
+      demo: 'https://www.pruvit.com/'
   },
   {
       id: 5,
       image: IMG5,
-      title: 'title5',
+      title: 'Aero Drop',
       github:	'https://github.com',
-      demo: 'https://dribble.com'
+      demo: 'https://aerodrop.ai/'
   },
   {
       id: 6,
       image: IMG6,
-      title: 'title6',
+      title: 'Aero Apps',
       github:	'https://github.com',
-      demo: 'https://dribble.com'
+      demo: 'https://aeroapps.io/'
+  },
+  {
+      id: 7,
+      image: IMG7,
+      title: 'Managerium',
+      github:	'https://github.com',
+      demo: 'https://ibos.io/managerium/'
+  },
+  {
+      id: 8,
+      image: IMG8,
+      title: 'Akij iBos',
+      github:	'https://github.com',
+      demo: 'https://ibos.io/'
+  },
+  {
+      id: 8,
+      image: IMG9,
+      title: 'Ruposhi Bangla',
+      github:	'https://github.com',
+      demo: 'https://ruposhibangla.store/'
   }
 ]
 

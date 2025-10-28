@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me4-about.jpg'
+import ME from '../../assets/Meee.png'
 import { TbAwardFilled } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -24,7 +24,7 @@ const About = () => {
             <article className="about__card">
               <TbAwardFilled className='about__icon'/>
               <h5>Experience</h5>
-              <small>2 Years Working</small>
+              <small>4+ Years Working</small>
             </article> 
 
             {/* <article className="about__card">
@@ -34,11 +34,11 @@ const About = () => {
             </article>  */}
             {/* https://www.researchgate.net/profile/Rafi-Alam-4 */}
 
-            <article className="about__card" >
+            <a className="about__card" href='https://github.com/SmRafialam'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>30+ Completed</small>
-            </article> 
+              <small>50+ Completed</small>
+            </a> 
 
             <a className="about__card" href='https://orcid.org/0000-0003-4805-5492'>
               <FaResearchgate className='about__icon'/>

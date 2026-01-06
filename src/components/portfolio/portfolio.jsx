@@ -73,6 +73,27 @@ const data = [
       title: 'Ruposhi Bangla',
       github:	'https://github.com',
       demo: 'https://ruposhibangla.store/'
+  },
+  {
+      id: 8,
+      image: IMG9,
+      title: 'Trackforce',
+      github:	'https://github.com',
+      demo: 'https://trackforce.io/'
+  },
+  {
+      id: 8,
+      image: IMG9,
+      title: 'Brain Forward',
+      github:	'https://github.com',
+      demo: 'https://brainforward.com.bd/'
+  },
+  {
+      id: 10,
+      image: IMG1,
+      title: 'AIMS(ATHEEB INFORMATION MANAGEMENT SYSTEM)',
+      github:	'https://github.com/SmRafialam',
+      demo: 'https://pim-frontend.azurewebsites.net/'
   }
 ]
 

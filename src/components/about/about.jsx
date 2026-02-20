@@ -1,8 +1,8 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import './about.css'
-import ME from '../../assets/Meee.png'
+import ME from '../../assets/MEEE.jpeg'
 import { TbAwardFilled } from "react-icons/tb";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { FaResearchgate } from "react-icons/fa6";
 
@@ -24,7 +24,7 @@ const About = () => {
             <article className="about__card">
               <TbAwardFilled className='about__icon'/>
               <h5>Experience</h5>
-              <small>4+ Years Working</small>
+              <small>5+ Years Working</small>
             </article> 
 
             {/* <article className="about__card">

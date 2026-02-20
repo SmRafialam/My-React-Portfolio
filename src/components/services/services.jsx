@@ -1,6 +1,7 @@
 import React from 'react'
 import './services.css'
 import { BsCheckLg } from "react-icons/bs";
+import { SiAngular, SiNestjs, SiMongodb, SiWordpress, SiReact } from "react-icons/si";
 
 const services = () => {
   return (
@@ -11,41 +12,37 @@ const services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
+            <div className="service__icon">
+              <SiAngular />
+              <SiNestjs />
+            </div>
             <h3>Full-Stack Web Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Offer end-to-end web development services using Angular for the frontend and NestJS for the backend.</p> */}
-              <p>Expertise in Angular, NestJS, Node.js, and MongoDB.</p>
+              <p>End-to-end web applications using Angular, React, NestJS, Node.js, and MongoDB.</p>
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Develop scalable and responsive web applications that leverage the power of MongoDB as the database.</p> */}
-              <p>Develop end-to-end web applications with Angular frontend and NestJS backend.</p>
+              <p>Develop scalable, responsive, and feature-rich applications tailored to your needs.</p>
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Provide custom solutions tailored to clients' specific requirements, including user authentication, data management, real-time updates, and more.</p> */}
-              <p>Create scalable, responsive, and feature-rich applications.</p>
+              <p>Specialize in user authentication, data management, and real-time updates.</p>
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Utilize your expertise in frontend technologies like Angular to create intuitive user interfaces and optimal user experiences.</p> */}
-              <p>Specialize in user authentication, data management, and real-time updates.</p> 
+              <p>Custom UI/UX design with interactive components and animations.</p> 
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              <p>Design and develop custom user interfaces with Angular to enhance user experience</p> 
+              <p>Responsive design principles for seamless experience across all devices.</p> 
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              <p>Implement responsive design principles for seamless interaction across devices..</p> 
-            </li>
-            <li>
-              <BsCheckLg className='service__list-icon'/>
-              <p>Create interactive components and animations to improve engagement.</p> 
+              <p>Performance optimization and security best practices.</p> 
             </li>
           </ul>
         </article>
@@ -53,65 +50,103 @@ const services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Consulting and Training</h3>
+            <div className="service__icon">
+              <SiWordpress />
+            </div>
+            <h3>WordPress Development & Customization</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Provide consulting services to businesses looking to adopt Angular, NestJS, or MongoDB for their projects.</p> */}
-              <p>Provide consulting on Angular, NestJS, and MongoDB projects.</p> 
+              <p>Custom WordPress theme development and plugin creation.</p> 
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Offer training sessions or workshops to help teams get up to speed with these technologies, covering best practices, architecture design, performance optimization, and more.</p> */}
-              <p>Conduct training sessions for teams to learn best practices.</p>
+              <p>E-commerce solutions with WooCommerce integration and optimization.</p>
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Advise on project planning, architecture decisions, and technology stack selection based on your experience with successful implementations.</p> */}
-              <p>Advise on project planning, architecture, and technology stack.</p> 
+              <p>Website migration, maintenance, and performance optimization.</p> 
+            </li>
+            <li>
+              <BsCheckLg className='service__list-icon'/>
+              <p>SEO optimization and content management system setup.</p>
+            </li>
+            <li>
+              <BsCheckLg className='service__list-icon'/>
+              <p>Custom post types, taxonomies, and advanced functionality.</p>
+            </li>
+            <li>
+              <BsCheckLg className='service__list-icon'/>
+              <p>WordPress security hardening and regular updates.</p>
             </li>
           </ul>
         </article>
-        {/* End of Consulting and Training */}
+        {/* End of WordPress Development */}
 
         <article className='service'>
           <div className="service__head">
-            <h3>Custom Development and Integration Solutions</h3>
+            <div className="service__icon">
+              <SiMongodb />
+            </div>
+            <h3>Backend & Database Solutions</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Develop custom modules, plugins, or extensions for Angular and NestJS applications to extend their functionality.</p> */}
-              <p>Develop custom modules and extensions for Angular and NestJS.</p>
+              <p>RESTful API development with NestJS and Node.js.</p>
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Offer integration services to connect existing systems with Angular/NestJS applications, ensuring seamless data flow and communication between different parts of the infrastructure.</p> */}
-              <p>Offer integration services to connect systems seamlessly.</p>
+              <p>Database design and optimization with MongoDB and SQL solutions.</p>
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              {/* <p>Provide migration services to help businesses transition from legacy systems or outdated technologies to modern Angular/NestJS solutions, leveraging MongoDB for data storage and management.</p> */}
-              <p>Provide migration assistance to modernize legacy systems.</p> 
+              <p>Microservices architecture and scalable backend systems.</p> 
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              <p>Analyze and optimize frontend and backend code for improved performance.</p> 
+              <p>Authentication, authorization, and data security implementation.</p> 
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              <p>Implement lazy loading and code splitting techniques to reduce initial load times.</p> 
+              <p>Real-time features using WebSockets and modern technologies.</p> 
             </li>
             <li>
               <BsCheckLg className='service__list-icon'/>
-              <p>Fine-tune database queries and indexing strategies for faster data retrieval.</p> 
+              <p>Code optimization and performance tuning for production environments.</p> 
             </li>
           </ul>
         </article>
-        {/* End of Custom Development and Integration Solutionst */}
+        {/* End of Backend Solutions */}
+
+        <article className='service'>
+          <div className="service__head">
+            <h3>Consulting & Training</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BsCheckLg className='service__list-icon'/>
+              <p>Technology stack consultation and architecture planning.</p> 
+            </li>
+            <li>
+              <BsCheckLg className='service__list-icon'/>
+              <p>Team training sessions on modern frameworks and best practices.</p>
+            </li>
+            <li>
+              <BsCheckLg className='service__list-icon'/>
+              <p>Code review and quality assurance guidance.</p> 
+            </li>
+            <li>
+              <BsCheckLg className='service__list-icon'/>
+              <p>Migration strategy from legacy systems to modern solutions.</p>
+            </li>
+          </ul>
+        </article>
+        {/* End of Consulting & Training */}
 
       </div>
     </section>

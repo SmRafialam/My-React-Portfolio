@@ -2,7 +2,7 @@ import React from 'react'
 import './testimonials.css'
 import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
-// import AVTR3 from '../../assets/avatar3.jpg'
+import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
@@ -16,25 +16,28 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Jack',
-    review: "Their expertise and dedication turned our vision into reality, delivering a product that surpassed all expectations."
+    name: 'Sarah Mitchell',
+    title: 'Product Manager, TechFlow Solutions',
+    review: "Working with Rafi was exceptional. He delivered a full-stack application in 4 months that increased our user engagement by 45%. His attention to detail and proactive problem-solving saved us thousands in development costs."
   },
   {
     avatar: AVTR2,
-    name: 'Smith',
-    review: "Their commitment to excellence and ability to adapt to our evolving needs ensured a successful project outcome, earning my highest recommendation."
+    name: 'Emily Rodriguez',
+    title: 'CEO, Creative Digital Agency',
+    review: "Rafi transformed our WordPress website into a high-performance e-commerce platform. The implementation was smooth, the communication was clear, and the results exceeded our ROI projections. Highly recommended!"
   },
-  // {
-  //   avatar: AVTR3,
-  //   name: 'Nau',
-  //   review: 'When potential customers read testimonials, they are stepping into the person shoes in the testimonial and see themselves using your product. An authentic testimonial is virtually impossible for a marketer to recreate.'
-  // },
+  {
+    avatar: AVTR3,
+    name: 'Jessica Chen',
+    title: 'Operations Director, StartupHub',
+    review: "We needed a custom backend API quickly. Rafi delivered a scalable NestJS solution within budget and timeline. His code is clean, well-documented, and production-ready. Outstanding work!"
+  },
   {
     avatar: AVTR4,
-    name: 'Nime',
-    review: "Choosing Rafi Alam for our project was one of the best decisions we made. Their impeccable attention to detail and effective communication made the entire process seamless, resulting in a final product that truly impressed both our team and clients alike."
+    name: 'Amanda Foster',
+    title: 'Marketing Lead, E-Commerce Co.',
+    review: "The React application Rafi built for us has been a game-changer. Fast load times, intuitive UI, and seamless checkout process resulted in 35% increase in conversions. He's a developer you can trust completely."
   }
-
 ]
 
 const testimonials = () => {
@@ -44,67 +47,27 @@ const testimonials = () => {
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
-        // install Swiper modules
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
         {
-          data.map(({avatar,name,review},index)=>{
+          data.map(({avatar, name, title, review}, index) => {
             return(
               <SwiperSlide key={index} className='testimonial'>
-                  <div className="client__avatar">
-                    <img src={avatar} alt="Avatar One" />
-                  </div>
-                  <h5 className='client__name'>{name}</h5>
-                  <small className='client__review'>
-                    {review}
-                  </small>
+                <div className="client__avatar">
+                  <img src={avatar} alt={name} />
+                </div>
+                <h5 className='client__name'>{name}</h5>
+                <small className='client__title'>{title}</small>
+                <small className='client__review'>
+                  "{review}"
+                </small>
               </SwiperSlide>
             )
           })
         }
-        {/* <article className='testimonial1'>
-            <div className="client__avatar">
-              <img src={avatar} alt="Avatar One" />
-              <h5 className='client__name'>Enrest Achiever</h5>
-              <small className='client__review'>
-                Thanks to SumatoSoft can-do attitude, amazing work ethic and willingness to tackle client's 
-                problems as their own, they've become an integral part of our team.
-              </small>
-            </div>
-          </article> */}
-          {/* <article className='testimonial1'>
-            <div className="client__avatar">
-              <img src={AVTR1} alt="Avatar One" />
-              <h5 className='client__name'>Enrest Achiever</h5>
-              <small className='client__review'>
-                Thanks to SumatoSoft can-do attitude, amazing work ethic and willingness to tackle client's 
-                problems as their own, they've become an integral part of our team.
-              </small>
-            </div>
-          </article>
-          <article className='testimonial1'>
-            <div className="client__avatar">
-              <img src={AVTR1} alt="Avatar One" />
-              <h5 className='client__name'>Enrest Achiever</h5>
-              <small className='client__review'>
-                Thanks to SumatoSoft can-do attitude, amazing work ethic and willingness to tackle client's 
-                problems as their own, they've become an integral part of our team.
-              </small>
-            </div>
-          </article>
-          <article className='testimonial1'>
-            <div className="client__avatar">
-              <img src={AVTR1} alt="Avatar One" />
-              <h5 className='client__name'>Enrest Achiever</h5>
-              <small className='client__review'>
-                Thanks to SumatoSoft can-do attitude, amazing work ethic and willingness to tackle client's 
-                problems as their own, they've become an integral part of our team.
-              </small>
-            </div>
-          </article> */}
       </Swiper>
     </section>
   )

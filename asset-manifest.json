@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.fcb0a8cb.css",
-    "main.js": "/My-React-Portfolio/static/js/main.b6a42735.js",
-    "static/media/Meee.png": "/My-React-Portfolio/static/media/Meee.d66fd88661bd277ede79.png",
+    "main.css": "/My-React-Portfolio/static/css/main.a7c139af.css",
+    "main.js": "/My-React-Portfolio/static/js/main.1dc45106.js",
+    "static/media/GRAD.jpeg": "/My-React-Portfolio/static/media/GRAD.f6faf0a5884da5c1556f.jpeg",
+    "static/media/carnival.png": "/My-React-Portfolio/static/media/carnival.fc8dc71f2bc5ab554b23.png",
+    "static/media/img301.png": "/My-React-Portfolio/static/media/img301.4c6520dad67942fc5055.png",
     "static/media/aero.png": "/My-React-Portfolio/static/media/aero.f2ea7291a9f56ddb85b6.png",
-    "static/media/ibos.io.png": "/My-React-Portfolio/static/media/ibos.io.cdd94a804ba7d86757a3.png",
     "static/media/managerium.png": "/My-React-Portfolio/static/media/managerium.d4e6ef05b3844cd78af7.png",
     "static/media/RB.png": "/My-React-Portfolio/static/media/RB.75ed9057cae949ad4eb6.png",
+    "static/media/orca.png": "/My-React-Portfolio/static/media/orca.696718956454336d36c8.png",
     "static/media/aerodrops.png": "/My-React-Portfolio/static/media/aerodrops.c4a1e3c20636b34146f4.png",
-    "static/media/bg.png": "/My-React-Portfolio/static/media/bg.60029cefb80f952ef549.png",
+    "static/media/fariasAgro.jpg": "/My-React-Portfolio/static/media/fariasAgro.c62816b2dc98ef4fc8dd.jpg",
+    "static/media/chancecasino.jpg": "/My-React-Portfolio/static/media/chancecasino.d4f15ab0b0ae23c01eb4.jpg",
+    "static/media/news.jpg": "/My-React-Portfolio/static/media/news.8c6d80423bbf8bb3b9d7.jpg",
+    "static/media/trackforce.jpg": "/My-React-Portfolio/static/media/trackforce.8315547cca6a18f74c41.jpg",
+    "static/media/iBos.jpg": "/My-React-Portfolio/static/media/iBos.8dbff37a84629c547a5c.jpg",
+    "static/media/brainforward2.jpg": "/My-React-Portfolio/static/media/brainforward2.ce2b2b11898bfce4763c.jpg",
     "static/media/image2.jpg": "/My-React-Portfolio/static/media/image2.890edcadd3bbd4677f4e.jpg",
     "static/media/image3.JPG": "/My-React-Portfolio/static/media/image3.737f124ab35849955446.JPG",
     "static/media/image1.jpg": "/My-React-Portfolio/static/media/image1.7bfac383e21e298bf630.jpg",
-    "static/media/Rafi_Alam_CV.pdf": "/My-React-Portfolio/static/media/Rafi_Alam_CV.07579db56921a9ef8f0b.pdf",
+    "static/media/MEEE.jpeg": "/My-React-Portfolio/static/media/MEEE.517194dfaf2161d22e9a.jpeg",
+    "static/media/SmRafiAlam_latest.pdf": "/My-React-Portfolio/static/media/SmRafiAlam_latest.c5349e8978154a107bc4.pdf",
     "static/media/ss2.png": "/My-React-Portfolio/static/media/ss2.0719196767e653eb28ef.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.fcb0a8cb.css.map": "/My-React-Portfolio/static/css/main.fcb0a8cb.css.map",
-    "main.b6a42735.js.map": "/My-React-Portfolio/static/js/main.b6a42735.js.map"
+    "main.a7c139af.css.map": "/My-React-Portfolio/static/css/main.a7c139af.css.map",
+    "main.1dc45106.js.map": "/My-React-Portfolio/static/js/main.1dc45106.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcb0a8cb.css",
-    "static/js/main.b6a42735.js"
+    "static/css/main.a7c139af.css",
+    "static/js/main.1dc45106.js"
   ]
 }

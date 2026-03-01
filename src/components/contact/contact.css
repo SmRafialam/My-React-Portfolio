@@ -62,7 +62,7 @@
 }
 
 .contact__option a:hover {
-    color: var(--color-bg);
+    color: var(--color-white);
     text-decoration: underline;
 }
 

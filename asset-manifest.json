@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.a7c139af.css",
-    "main.js": "/My-React-Portfolio/static/js/main.1dc45106.js",
+    "main.css": "/My-React-Portfolio/static/css/main.7979a096.css",
+    "main.js": "/My-React-Portfolio/static/js/main.c2075933.js",
     "static/media/GRAD.jpeg": "/My-React-Portfolio/static/media/GRAD.f6faf0a5884da5c1556f.jpeg",
     "static/media/carnival.png": "/My-React-Portfolio/static/media/carnival.fc8dc71f2bc5ab554b23.png",
     "static/media/img301.png": "/My-React-Portfolio/static/media/img301.4c6520dad67942fc5055.png",
@@ -23,11 +23,11 @@
     "static/media/SmRafiAlam_latest.pdf": "/My-React-Portfolio/static/media/SmRafiAlam_latest.c5349e8978154a107bc4.pdf",
     "static/media/ss2.png": "/My-React-Portfolio/static/media/ss2.0719196767e653eb28ef.png",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.a7c139af.css.map": "/My-React-Portfolio/static/css/main.a7c139af.css.map",
-    "main.1dc45106.js.map": "/My-React-Portfolio/static/js/main.1dc45106.js.map"
+    "main.7979a096.css.map": "/My-React-Portfolio/static/css/main.7979a096.css.map",
+    "main.c2075933.js.map": "/My-React-Portfolio/static/js/main.c2075933.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7c139af.css",
-    "static/js/main.1dc45106.js"
+    "static/css/main.7979a096.css",
+    "static/js/main.c2075933.js"
   ]
 }

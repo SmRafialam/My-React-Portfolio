@@ -6,6 +6,10 @@ import { FaWhatsapp } from "react-icons/fa";
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
+// toast notifications
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Contact = () => {
   const form = useRef();
 
@@ -26,10 +30,10 @@ const Contact = () => {
 
     emailjs.sendForm('service_1fn07mr', 'template_r4nzs3h', e.target, publicKey).then((result) => {
       console.log(result.text);
-      alert("Email Sent");
+      toast.success("Email Sent");
     }).catch((error) => {
       console.log(error.text);
-      alert("Error sending email. Please try again later.");
+      toast.error("Error sending email. Please try again later.");
     });
   
     e.target.reset();
@@ -69,6 +73,8 @@ const Contact = () => {
             <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
+      {/* toast container for notifications */}
+      <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover />
     </section>
   )
 }
